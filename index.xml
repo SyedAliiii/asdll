@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE person [
+<!ELEMENT person (name, email, mobile)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT mobile (#PCDATA)>
+]>
+
+<person>
+<name>Ali</name>
+<email>Ali@yahoo.com</email>
+<mobile>0231247</mobile>
+</person>
